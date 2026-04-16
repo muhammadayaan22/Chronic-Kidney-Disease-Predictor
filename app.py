@@ -3,8 +3,8 @@ import pandas as pd
 import pickle 
 
 # Load the trained model
-scaler = pickle.load(open('scaler.pkl', 'rb'))
-model = pickle.load(open('model_gbc.pkl', 'rb'))
+scaler = pickle.load(open('scaler (1).pkl', 'rb'))
+model = pickle.load(open('model_gbc (1).pkl', 'rb'))
 
 df_dict = {
     'age': [age],
